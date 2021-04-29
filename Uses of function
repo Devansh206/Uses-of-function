@@ -1,0 +1,17 @@
+#include<stdio.h>
+intcalsum(intx,inty,intz);
+int main()
+{
+ int a,b,c,sum;
+ printf("enter the value of number");
+ scanf("%d%d%d",&a,&b,&c);
+ sum=calsum(a,b,c);
+ printf("sum=%d",sum);
+}
+int calsum(intx,inty,intz)
+{
+  int d;
+  d=x+y+z;
+  return (d);
+ }
+ 
